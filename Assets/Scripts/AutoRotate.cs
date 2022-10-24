@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class AutoRotate : MonoBehaviour
 {
-    public float rotateSpeed = 0.0f;
+    [SerializeField]
+    float rotateSpeed = 0.0f;
     // Start is called before the first frame update
     void Start()
     {
