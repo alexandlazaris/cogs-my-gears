@@ -2,6 +2,7 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+Library/*
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -9,6 +10,17 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+.DS_Store
+
+/[Aa]ssets/Editor Default Resources/
+
+/[Aa]ssets/ExternalDependencyManager/
+
+/[Aa]ssets/Firebase/
+
+/[Aa]ssets/Parse/
+
+/[Aa]ssets/Plugins/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
