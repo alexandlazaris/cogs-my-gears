@@ -7,6 +7,9 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
+	"last_search.DD5CDD96" = "ref:Assets/Scene-Music/FutureWorld_Dark_Loop_01.ogg"
+	"OpenInspectorPreview.DD5CDD96" = "0"
+	"currentGroup.DD5CDD96" = "scene"
 }
 providers = {
 	find = {
@@ -53,6 +56,7 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"ref:Assets/Scene-Music/FutureWorld_Dark_Loop_01.ogg"
 ]
 searchItemFavorites = [
 ]

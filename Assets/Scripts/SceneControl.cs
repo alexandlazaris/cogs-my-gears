@@ -13,12 +13,6 @@ public class SceneControl : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void LoadSceneByReference()
     {
         Debug.Log("sceneName to load: " + sceneName);

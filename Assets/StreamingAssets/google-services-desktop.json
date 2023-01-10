@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "186054398229",
+    "project_id": "cogs-e9c75",
+    "storage_bucket": "cogs-e9c75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186054398229:android:e53be90a1a25eba026191c",
+        "android_client_info": {
+          "package_name": "com.lazaristechnologies.cogs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186054398229-4unmm27m257sbkc4ipa4ncub3erg1lhg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYp3f00b_2LDxIeKUwBym5ZZPE4INWKHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186054398229-4unmm27m257sbkc4ipa4ncub3erg1lhg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
