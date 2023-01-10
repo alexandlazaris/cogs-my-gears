@@ -8,6 +8,8 @@ public class BallMovement : MonoBehaviour
     float speed = 10F;
     private Rigidbody rb;
     private Vector3 vec;
+    [SerializeField]
+    bool enabled = true;
 
     void Start()
     {
@@ -24,7 +26,23 @@ public class BallMovement : MonoBehaviour
         // rb.AddForce(acc.x * speed, 0, acc.y * speed);
         
         // key control
-        transform.Translate(Vector3.right * speed * Time.deltaTime * Input.GetAxis("Horizontal"));
+        if(enabled)
+        {
+            transform.Translate(Vector3.right * speed * Time.deltaTime * Input.GetAxis("Horizontal"));
+        }
+        
+    }
+
+    void Enable()
+    {
+        enabled = true;
+        Debug.Log("can move player");
+    }
+
+    void Disable()
+    {
+        enabled = false;
+        Debug.Log("cannot move player");
     }
 }
  
